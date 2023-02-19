@@ -11,7 +11,8 @@ Sampling techniques can be classified as probability or non-probability sampling
 **Non-probability** sampling is a sampling technique where the selection of the sample is not based on random selection, and not all members of the population have an equal chance of being selected. 
 
 **Step 1** -> We will load our dataset "Creditcard_data.csv". Refer to :https://github.com/Vardaan2509/Sampling_Assignment-102003295-/blob/main/Creditcard_data.csv
-Since, this is an unbalanced datset so we need to balance it using techniques such as oversampling/undersampling.
+Since, this is an unbalanced datset so we need to balance it using techniques such as **oversampling, undersampling**,etc.
+Balancing a dataset refers to the process of addressing class imbalance in a dataset. Class imbalance occurs when the number of samples in one class is significantly larger or smaller than the number of samples in other classes. Imbalanced datasets can lead to biased results in machine learning models, where the model may favor the larger class due to its prevalence in the dataset.
 
 **Step 2** -> Create and load the new dataset "Balanced_data.csv". Refer to :https://github.com/Vardaan2509/Sampling_Assignment-102003295-/blob/main/Balanced_data.csv
 
@@ -29,7 +30,7 @@ The techniques used in our code(https://github.com/Vardaan2509/Sampling_Assignme
 **Step 5** -> Compare the accuracies.
 
 # Obseravtions/Conclusions:
-The highest accuracy is being achieved by using the combination of Cluster Sampling Technique + Random Forest Classifier.
+The highest accuracy(0.9986) is being achieved by using the combination of Cluster Sampling Technique + Random Forest Classifier.
 
 # Result 
 Please refer to : https://github.com/Vardaan2509/Sampling_Assignment-102003295-/blob/main/Models_comparison.jpg
